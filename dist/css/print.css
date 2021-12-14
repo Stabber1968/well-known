@@ -1,0 +1,140 @@
+
+.printBorder{
+     position: relative;
+     width: 400px;
+    letter-spacing: 2px;
+ }
+
+.paddingTop{
+    padding-top: 0rem;
+}
+.row_print {
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-right: -7.5px;*/
+    /*margin-left: -7.5px;*/
+}
+p {
+    margin-bottom: 0rem;
+}
+.title_font{
+    /*text-align: -webkit-center;*/
+}
+.plant_id_font{
+    /*font-size: 15px;*/
+    /*padding-bottom: 9px;*/
+    /*padding-top: 2px;*/
+    /*padding-bottom: 1px;*/
+
+}
+.print_mother_id{
+    /*padding-top: 5px;*/
+    /*padding-bottom: 2px;*/
+    /*font-size: 15px;*/
+}
+.print_date{
+    /*font-size: 15px;*/
+}
+
+.print_body{
+    display: flex;
+    padding-left: 0rem;
+}
+
+.print_qr{
+    padding-left: 10%;
+}
+.print_info{
+    padding-left: 25px;
+    width: 72%;
+    /*font-size: 18px;*/
+    padding-top: 3px;
+    font-size: 15px;
+}
+.print_name{
+    font-size: 23px;
+}
+.plant_id{
+    text-align: -webkit-center;
+}
+
+.print_qr_code{
+    /*font-size: 15px;*/
+}
+
+.reportPrintContainer{
+    position: relative;
+    width: 190px;
+    /*letter-spacing: 1px;*/
+    /*background: antiquewhite;*/
+}
+
+.reportPrintCard{
+    height: 800px;
+}
+.reportPrintBody{
+    /*font-weight: 500;*/
+}
+.reportPrintBody > table,.reportPrintBody th,.reportPrintBody td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding-left: 10px;
+}
+.print-col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.print-col-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.print-col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.print-col-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+.print-col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.print-col-6, .print-col-5,.print-col-7,.print-col-4, .print-col-8{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+
+.report_qr_code{
+    align-self: center;
+    /*text-align: -webkit-center;*/
+}
+.report_half_size{
+    width: 340px;
+}
+.report_small_font{
+    font-size: 10px;
+    margin-left: 43px;
+}
+.report_middle_font{
+    font-size: 12px;
+
+}
+.reportTextAlignTop{
+    vertical-align: text-top;
+}
+.reportTextAlignCenter{
+    justify-content: center;
+    text-align: center;
+}
+.reportImageMargin{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.reportSpaceAround{
+    justify-content: space-around;
+}

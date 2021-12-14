@@ -1,0 +1,77 @@
+
+.select2-container--default .select2-selection--single{
+    height: fit-content;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+
+    height: 43px;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active{
+
+    /*padding-bottom: 15px;*/
+    /*padding-top: 15px;*/
+    box-shadow: rgba(0,0,0,0.25) 0 1px 0, inset rgba(255,255,255,0.16) 0 1px 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#334556), to(#2C4257)),#2A3F54;
+
+}
+
+.nav-sidebar>.nav-item{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover{
+    color: #ffffff;
+    background: rgba(255,255,255,0.05);
+
+
+}
+.card-primary:not(.card-outline)>.card-header{
+    background: #077762 !important;
+}
+.btn-primary{
+    box-shadow: none;
+    background: #077762 !important;
+    border: 1px solid #0b6f5b !important;
+    color: #fff;
+}
+
+[class*=sidebar-dark-] .sidebar a{
+    color: #ffffff;
+}
+.main-sidebar .brand-text, .main-sidebar .logo-xl, .main-sidebar .logo-xs, .sidebar .nav-link p, .sidebar .user-panel .info{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.color-sidebar-background{
+    background: #ffffff;
+}
+[class*=sidebar-dark] .brand-link{
+    border-bottom: 1px solid #01070c0f;
+    color: #000000;
+}
+[class*=sidebar-dark-] .sidebar a{
+    color: #000000;
+}
+[class*=sidebar-dark-] .nav-sidebar>.nav-item.menu-open>.nav-link, [class*=sidebar-dark-] .nav-sidebar>.nav-item:hover>.nav-link, [class*=sidebar-dark-] .nav-sidebar>.nav-item>.nav-link:focus{
+    color: #000000;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link:focus, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link:hover{
+
+    color: #e60e0e;
+}

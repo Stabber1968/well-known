@@ -1,0 +1,124 @@
+Array
+(
+    [0] => stdClass Object
+        (
+            [plant_UID] => 
+        )
+
+)
+Array
+(
+    [0] => stdClass Object
+        (
+            [lot_id] => 
+        )
+
+    [1] => stdClass Object
+        (
+            [lot_id] => 1
+        )
+
+    [2] => stdClass Object
+        (
+            [lot_id] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [lot_id] => 3
+        )
+
+    [4] => stdClass Object
+        (
+            [lot_id] => 4
+        )
+
+    [5] => stdClass Object
+        (
+            [lot_id] => 5
+        )
+
+    [6] => stdClass Object
+        (
+            [lot_id] => 6
+        )
+
+)
+Array
+(
+    [0] => stdClass Object
+        (
+            [mother_UID] => 
+        )
+
+    [1] => stdClass Object
+        (
+            [mother_UID] => 10
+        )
+
+    [2] => stdClass Object
+        (
+            [mother_UID] => 11
+        )
+
+    [3] => stdClass Object
+        (
+            [mother_UID] => 12
+        )
+
+    [4] => stdClass Object
+        (
+            [mother_UID] => 13
+        )
+
+    [5] => stdClass Object
+        (
+            [mother_UID] => 14
+        )
+
+    [6] => stdClass Object
+        (
+            [mother_UID] => 15
+        )
+
+    [7] => stdClass Object
+        (
+            [mother_UID] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [mother_UID] => 3
+        )
+
+    [9] => stdClass Object
+        (
+            [mother_UID] => 4
+        )
+
+    [10] => stdClass Object
+        (
+            [mother_UID] => 5
+        )
+
+    [11] => stdClass Object
+        (
+            [mother_UID] => 6
+        )
+
+    [12] => stdClass Object
+        (
+            [mother_UID] => 7
+        )
+
+    [13] => stdClass Object
+        (
+            [mother_UID] => 8
+        )
+
+    [14] => stdClass Object
+        (
+            [mother_UID] => 9
+        )
+
+)

@@ -1,0 +1,110 @@
+[01-Dec-2020 13:45:21 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Could not access file: /DB/database_backup_12_01_20.sql' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2968
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(53): PHPMailer\PHPMailer\PHPMailer->addAttachment('/DB/database_ba...')
+#1 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2968
+[01-Dec-2020 13:46:16 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Could not access file: /DB/database_backup_12_01_20.sql' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2968
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(53): PHPMailer\PHPMailer\PHPMailer->addAttachment('/DB/database_ba...')
+#1 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2968
+[01-Dec-2020 13:46:44 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Could not access file: DB/database_backup_12_01_20.sql' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2968
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(53): PHPMailer\PHPMailer\PHPMailer->addAttachment('DB/database_bac...')
+#1 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2968
+[18-Dec-2020 20:24:25 UTC] PHP Fatal error:  Call to a member function count() on boolean in /home/malheiro/farm.weezgarden.com/Entity/User.php on line 120
+[18-Dec-2020 20:25:12 UTC] PHP Fatal error:  Call to a member function count() on boolean in /home/malheiro/farm.weezgarden.com/Entity/User.php on line 120
+[19-Dec-2020 05:00:20 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', '', '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress('')
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[01-Jan-2021 23:16:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/malheiro/farm.weezgarden.com/Logic/saveClonePlants.php on line 270
+[01-Jan-2021 23:16:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/malheiro/farm.weezgarden.com/Logic/saveClonePlants.php on line 270
+[01-Jan-2021 23:16:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/malheiro/farm.weezgarden.com/Logic/saveClonePlants.php on line 270
+[05-Nov-2021 04:00:20 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[06-Nov-2021 04:00:21 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[07-Nov-2021 04:00:22 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[08-Nov-2021 05:00:22 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[09-Nov-2021 05:00:20 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[10-Nov-2021 05:00:21 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[11-Nov-2021 05:00:21 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[12-Nov-2021 05:00:20 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[13-Nov-2021 05:00:20 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[14-Nov-2021 05:00:21 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[15-Nov-2021 05:00:21 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[16-Nov-2021 05:00:19 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/farm.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/farm.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[17-Nov-2021 00:26:46 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/datagarden.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/datagarden.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 /home/malheiro/datagarden.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 {main}
+  thrown in /home/malheiro/datagarden.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081
+[17-Nov-2021 01:14:25 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'Invalid address:  (to): ' in /home/malheiro/datagarden.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/malheiro/datagarden.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', '', '')
+#1 /home/malheiro/datagarden.weezgarden.com/Logic/autoScript.php(47): PHPMailer\PHPMailer\PHPMailer->addAddress('')
+#2 {main}
+  thrown in /home/malheiro/datagarden.weezgarden.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1081

@@ -1,0 +1,141 @@
+@charset "UTF-8";
+.uedit-card-header {
+    padding-top: 5px;
+    padding-bottom: 3px; }
+
+.uedit-card-body {
+    padding-top: 3px;
+    padding-bottom: 3px; }
+
+.uhover:hover{
+    color: #212529;
+    background-color: rgba(255, 255, 255, 0.00);
+}
+
+tr:hover {
+    color: #212529;
+    background-color: rgba(0,0,0,.02) !important;
+}
+#example3_wrapper{
+    width: 100%!important;
+}
+
+.nopadding{
+    padding: 0;
+}
+.button1 {
+    /* width: 140px;
+    height: 45px; */
+    /* font-family: 'Roboto', sans-serif;
+    font-size: 11px; */
+    /* text-transform: uppercase; */
+    padding: 6px 12px;
+    letter-spacing: 2.5px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color: #007bff ;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.button1:focus {
+    outline: none;
+    background-color: #1e7e34 ;
+}
+.button1:hover, .button1:visited, .button1:active{
+    background-color: #1e7e34 ;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    border: none;
+    transform: translateY(-7px);
+}
+
+
+@media (min-width: 576px){
+    .width-modal-middle {
+        max-width: 500px;
+    }
+    .width-modal-large {
+        max-width: 1150px;
+    }
+    .width-modal-small {
+        max-width: '25%';
+    }
+
+
+    .width-modal-dialog-plants-mother {
+        max-width: 715px;
+    }
+    .width-modal-history-Mother-Plants {
+        max-width: 1150px;
+    }
+    .width-modal-dialog-plants-clone{
+        max-width: 1150px;
+
+    }
+
+     .width-modal-dialog-plants-Veg {
+         max-width: 1150px;
+     }
+    .width-modal-dialog-plants-Flower{
+        max-width: 1150px;
+    }
+    .width-modal-dialog-setting-Genetic{
+        max-width: 1150px;
+    }
+    .width-modal-dialog-plants-Dry {
+        max-width: 1150px;
+    }
+    .width-modal-dialog-packing-Dry-Plants{
+        max-width: 815px;
+    }
+    .width-modal-dialog-plants-Trimming{
+        max-width: 1150px;
+    }
+    .width-modal-dialog-transfer-plants{
+        max-width: 715px;
+    }
+    .width-modal-print-label{
+        max-width: 450px;
+    }
+    .width-modal-multi-print-label {
+        max-width: 650px;
+
+    }
+    .width-modal-add-sell{
+        max-width: 715px;
+    }
+    .width-modal-user-permission{
+        max-width: 715px;
+
+    }
+    .width-modal-report-print-label {
+        max-width: 715px;
+    }
+}
+
+.select2-container--default .select2-selection--single{
+    height: fit-content;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+
+    height: 43px;
+}
+
+.table-bordered td, .table-bordered th{
+    border: 0px solid #dee2e6;
+}
+.table td, .table th{
+    vertical-align: middle;
+    border-top: 0px solid #dee2e6
+}
+div.dataTables_wrapper div.dataTables_filter input{
+    width: 300px;
+}
+.label_body{
+    padding: 0rem;
+}
+
